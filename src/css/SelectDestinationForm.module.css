@@ -1,0 +1,85 @@
+.form {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.form > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form > div:nth-child(1) > button {
+    width: 50%;
+    margin: 0.2%;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.form > div:nth-child(1) > button:nth-child(1) {
+    background-color: rgb(241, 86, 63);
+}
+
+.form > div:nth-child(1) > button:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid white;
+}
+
+.form > div:nth-child(2) {
+    width: 100%;
+}
+
+.form > div:nth-child(2) > select {
+    width: 28.5%;
+    margin: 0.2%;
+    height: 40px;
+    color: rgb(241, 86, 63);
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form > div:nth-child(2) > input {
+    width: 20%;
+    margin: 0.2%;
+    height: 35px;
+    color: rgb(241, 86, 63);
+    font-size: 15px;
+}
+
+.form > div:nth-child(2) > button {
+    width: 28.5%;
+    margin: 0.2%;
+    height: 40px;
+    background-color: rgb(241, 86, 63);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+
+    .form {
+        width: 350px;
+    }
+
+    .form > div:nth-child(2) > select {
+        width: 99.5%;
+    }
+
+    .form > div:nth-child(2) > input {
+        width: 48.1%;
+    }
+
+    .form > div:nth-child(2) > button {
+        width: 100%;
+    }
+}

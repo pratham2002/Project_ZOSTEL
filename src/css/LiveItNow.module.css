@@ -1,0 +1,16 @@
+.liveItNow {
+    background-image: url(https://img.cdn.zostel.com/cache/_1702bd3ab45e20acabe0c783694e8c73/4_1400x600.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 650px;
+}
+
+.liveItNow > h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 60px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}

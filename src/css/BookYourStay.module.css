@@ -1,0 +1,97 @@
+.brDiv {
+    background-color: rgb(232, 240, 242);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    border: 1px solid red;
+
+}
+
+.main > div:nth-child(1) {
+    width: 65%;
+}
+
+.main > div:nth-child(2) {
+    width: 25%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.header > div:nth-child(1) > p {
+    margin: 0;
+}
+
+.header > div:nth-child(1) > p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header > div:nth-child(1) > p:nth-child(2) {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.header > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+}
+
+.header > div:nth-child(2) > p {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.arrow {
+    margin: 13px 20px 0;
+}
+
+
+/* List Of Hotels */
+
+.list {
+    margin: 40px 0;
+    background-color: white;
+    height: 300px;
+}
+.list > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+.imageDiv {
+    width: 20%;
+    height: 100%;
+}
+.imageDiv > img {
+    width: 100%;
+    height: 100%;
+}
+.paraDiv {
+    width: 80%;
+    padding-left: 15px;
+}
+.paraDiv > p {
+    margin: 0;
+}
+.paraDiv > p:nth-child(1) {
+    font-size: 25px;
+    font-weight: 500;
+}
