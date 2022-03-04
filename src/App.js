@@ -1,14 +1,15 @@
 import './App.css';
-import BookYourStay from './components/BookYourStay';
 import LiveItNow from './components/LiveItNow';
-import SelectUnitGridImage from './components/SelectUnitGridImage';
+import {Routes,Route} from "react-router-dom"
+import HotelBookingPage from './components/HotelBookingPage';
 
 function App() {
   return (
     <div className="App">
-      <LiveItNow />
-      <SelectUnitGridImage/>
-      <BookYourStay />
+      <Routes>
+            <Route path='/' element={<LiveItNow />} />
+            <Route path='bookRoom' element={<HotelBookingPage />} />
+        </Routes>
     </div>
   );
 }

@@ -4,39 +4,47 @@
             "id": 1,
             "name": "8-Bed Mixed Dorm",
             "desc": "A Bed in the 8 Bed Mixed Sharing Dorm (Ensuite) [Meals purchasable at the property @INR 500/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "449",
+            "price": 449,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/KjrTtw5jQBipWa-wlcHigQ/4-bed-mixed-dorm-20211223201031.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/uSyTxqmkSUWDVAuZtXf3NQ/4-bed-mixed-dorm-20211223201024.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 2
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 0
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 2
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 0
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 4
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 9
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 6
                 }
@@ -46,39 +54,47 @@
             "id": 2,
             "name": "4-Bed Mixed Dorm",
             "desc": "A Bed in the 4 Bed Mixed Dorm (Ensuite) [Meals purchasable at the property @INR 500/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "549",
+            "price": 549,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/KjrTtw5jQBipWa-wlcHigQ/4-bed-mixed-dorm-20211223201031.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/uSyTxqmkSUWDVAuZtXf3NQ/4-bed-mixed-dorm-20211223201024.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 0
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 0
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 1
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 0
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 2
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 5
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 1
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 3
                 }
@@ -88,39 +104,47 @@
             "id": 3,
             "name": "Private Room",
             "desc": "A Private Room with double bed",
-            "price": "1,399",
+            "price": 1399,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/u1QvTWwNQuODjsO_HFtFMg/kochi-private-room-detailed-20201105110032.jpg?w=1280",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/vt7qOvg2Q0isXWfV4hPzfQ/kochi-common-room-20201105110031.jpg?w=1280",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 0
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 3
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 2
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 3
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 0
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 3
                 }
@@ -130,39 +154,47 @@
             "id": 4,
             "name": "6 Bed Female Dorm",
             "desc": "A bed in 6 Bed Female Dorm [Meals purchasable at the property @INR 350/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "699",
+            "price": 699,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/VN4o-7W8QTWDejHzPebEcA/6-bed-mixed-dorm-shared-washroom-20210314163109.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/JuWbW9_jQLyViiZdjsODfA/zostel-ooty-6-bed-female-dorm-bathroom-2020_0P5Iv5F.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 1
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 3
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 0
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 1
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 0
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 0
                 }
@@ -172,39 +204,47 @@
             "id": 5,
             "name": "Private Room",
             "desc": "A Private Room with Double Bed [Meals purchasable at the property @INR 350/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "1,999",
+            "price": 1999,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/k1ijW-PJR1iYxpq3Glds5w/zostel-ooty-private-room-20201105114350.jpg?w=1280",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/vHSlwTZFSry1J7Is8Z9gig/private-room-20210314163408.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 0
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 0
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 0
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 1
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 0
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 2
                 }
@@ -214,39 +254,47 @@
             "id": 6,
             "name": "Deluxe Twin Room (AC)",
             "desc": "A Deluxe Twin Room (AC) with twin beds. [ Meals purchasable at the property @INR 500/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "1,999",
+            "price": 1999,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/fHa53ltEQrKga5DF4umRsA/designer-suite-20210315032247.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/Hom6TsA8Ra2mNPDinId0Gw/designer-suite-20210315032243.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 2
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 1
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 2
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 1
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 4
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 0
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 1
                 }
@@ -256,39 +304,47 @@
             "id": 7,
             "name": "Designer Suite",
             "desc": "A Designer Suite with double bed. [ Meals purchasable at the property @INR 500/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "2,499",
+            "price": 2499,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/JWARLg__SJOzs4bW97302Q/standard-room-ac-20210315025722.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/R6BSS8EpT8mW2eGToRpN0A/standard-room-ac-20210315025729.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 1
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 2
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 3
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 2
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 2
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 1
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 1
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 3
                 }
@@ -298,39 +354,47 @@
             "id": 8,
             "name": "Superior 6 Bed Mixed Dorm",
             "desc": "A bed in Superior 6 Bed Mixed Dorm. (Ensuite) [ Meals purchasable at the property @INR 500/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "1,399",
+            "price": 1399,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/hojJq0CUSwi09n8WWsInVg/zostel-delhi-8-bed-mixed-dorm-20201112104831.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/78gX_OcWQySF3QNOsFfTuA/superior-8-bed-mixed-dorm-20210315025313.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 1
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 2
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 4
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 2
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 3
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 0
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 3
                 }
@@ -340,39 +404,47 @@
             "id": 9,
             "name": "8 Bed Mixed Dorm (AC)",
             "desc": "A bed in 8 Bed Mixed Dorm. (Ensuite) [Meals purchasable at the property @INR 450/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "499",
+            "price": 499,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/hMnylj5pReirsINVxHZCew/zostel-udaipur-8-bed-mixed-dorm-20201112105639.jpg?w=200",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/58v0d7taSxOqlU3Dl88itA/8-bed-mixed-dorm-20210315043822.jpg?w=200",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 1
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 0
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 0
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 1
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 1
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 0
                 }
@@ -382,39 +454,47 @@
             "id": 10,
             "name": "Deluxe Private Room (AC)",
             "desc": "A Deluxe Private Room with double bed. [Meals purchasable at the property @INR 450/day/adult if you're booking a long-stay of 7 nights or more]",
-            "price": "2,499",
+            "price": 2499,
             "url_1": "https://img.cdn.zostel.com/zostel/gallery/images/4WQktcwLQLWLswjWLL0okw/udaipur-dorm-2-20201105115405.jpg?w=1280",
             "url_2": "https://img.cdn.zostel.com/zostel/gallery/images/XOp5Fn9iS9-UjNE0yxqVyQ/udaipur-female-dorm-20201105115404.jpg?w=1280",
             "availability": [
                 {
+                    "avId": 0,
                     "date": "2022-03-06",
                     "units": 1
                 },
                 {
+                    "avId": 1,
                     "date": "2022-03-07",
                     "units": 3
                 },
                 {
+                    "avId": 2,
                     "date": "2022-03-08",
                     "units": 0
                 },
                 {
+                    "avId": 3,
                     "date": "2022-03-09",
                     "units": 1
                 },
                 {
+                    "avId": 4,
                     "date": "2022-03-10",
                     "units": 0
                 },
                 {
+                    "avId": 5,
                     "date": "2022-03-11",
                     "units": 2
                 },
                 {
+                    "avId": 6,
                     "date": "2022-03-12",
                     "units": 1
                 },
                 {
+                    "avId": 7,
                     "date": "2022-03-13",
                     "units": 2
                 }

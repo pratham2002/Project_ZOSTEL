@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 import { DestinationContext } from "../context/DestinationContext";
 import styles from "../css/SelectDestinationForm.module.css";
 
@@ -7,6 +8,7 @@ export default function SelectDestinationForm() {
   const [bool, setBool] = useState(false)
 
   const { setDestinationData } = useContext(DestinationContext);
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
     const { name, value } = e.currentTarget;
@@ -19,6 +21,7 @@ export default function SelectDestinationForm() {
   const handleClick = () => {
     localStorage.setItem("data", JSON.stringify(data))
     setBool(!bool)
+    navigate(`/bookRoom`)
   };
 
   useEffect(() => {

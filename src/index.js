@@ -4,12 +4,18 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { DestinationContextProvider } from "./context/DestinationContext";
+import { SelectRoomContextProvider } from "./context/SelecdRoomContext";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DestinationContextProvider>
-      <App />
-    </DestinationContextProvider>
+    <BrowserRouter>
+      <DestinationContextProvider>
+        <SelectRoomContextProvider>
+          <App />
+        </SelectRoomContextProvider>
+      </DestinationContextProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

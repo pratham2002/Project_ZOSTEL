@@ -1,5 +1,6 @@
 .brDiv {
     background-color: rgb(232, 240, 242);
+    padding: 40px 0;
 }
 
 .main {
@@ -7,7 +8,6 @@
     flex-direction: row;
     width: 85%;
     margin: auto;
-    border: 1px solid red;
 
 }
 
@@ -16,7 +16,7 @@
 }
 
 .main > div:nth-child(2) {
-    width: 25%;
+    width: 35%;
 }
 
 .header {
@@ -67,9 +67,10 @@
 /* List Of Hotels */
 
 .list {
-    margin: 40px 0;
+    margin: 20px 0;
     background-color: white;
     height: 300px;
+    border-radius: 10px;
 }
 .list > div:nth-child(1) {
     display: flex;
@@ -87,11 +88,102 @@
 .paraDiv {
     width: 80%;
     padding-left: 15px;
+    position: relative;
+}
+.paraDiv > div {
+    height: 30px;
+    padding-top: 5px;
+}
+.paraDiv > div > span {
+    font-size: 13px;
+    font-weight: 500;
 }
 .paraDiv > p {
     margin: 0;
 }
 .paraDiv > p:nth-child(1) {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
+    margin-top: 10px;
+}
+.paraDiv > p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.paraDiv > p:nth-child(4) {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    bottom: 0;
+    color: rgb(241, 86, 63);
+}
+
+.roomSelect {
+    display: flex;
+    flex-direction: row;
+}
+
+.roomSelect > button {
+    width: 12.5%;
+    border: 0;
+    padding: 0 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.roomSelect > button:hover {
+    background-color: rgb(237, 242, 247);
+}
+
+.roomSelect > button > p:nth-child(2) {
+    color: green;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.roomSelect > button > p:nth-child(3) {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.summary {
+    margin-left: 30px;
+}
+
+.summary > div:nth-child(1) > p {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    margin-top: -30px;
+}
+
+.summary > div:nth-child(1) > p >:nth-child(2) {
+    color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-weight: 500;
+}
+
+.summary > div:nth-child(2) > div > p:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.summary > div > button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: rgb(241, 88, 36);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 15px;
+    cursor: pointer;
 }
