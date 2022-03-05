@@ -4,12 +4,15 @@ import { DestinationContext } from "../context/DestinationContext";
 import { MdArrowForward } from "react-icons/md";
 import { MdPerson } from "react-icons/md";
 import { SelectRoomContext } from "../context/SelecdRoomContext";
+import { useNavigate } from "react-router";
 
 export default function BookYourStay() {
+  
   const { destinationData } = useContext(DestinationContext);
   const { selectRoomData, setSelectRoomData } = useContext(SelectRoomContext);
   const [hotels, setHotels] = useState([]);
-  const [totalSum, setTotalSum] = useState(0)
+  const [totalSum, setTotalSum] = useState(0);
+  const navigate = useNavigate()
 
   useEffect(() => {
     fetch(`http://localhost:3000/hotel`)
@@ -17,23 +20,25 @@ export default function BookYourStay() {
       .then((data) => setHotels(data));
   }, []);
 
-  const handleSelectRoom = (unit, price) => {
+  const handleSelectRoom = (unit, price) => { 
     setSelectRoomData([...selectRoomData, { unit, price }]);
   };
 
   const DestinationDateIn = destinationData.checkIn[8] + destinationData.checkIn[9];
   const DestinationDateOut = destinationData.checkOut[8] + destinationData.checkOut[9];
-  const stayDay = Number((DestinationDateOut - DestinationDateIn) + 1);
+  const stayDay = Number(DestinationDateOut - DestinationDateIn);
 
-  
-  
   useEffect(() => {
-    var sum = 0
-    for ( var i = 0; i < selectRoomData.length; i++ ) {
-      sum += selectRoomData[i].price
+    var sum = 0;
+    for (var i = 0; i < selectRoomData.length; i++) {
+      sum += selectRoomData[i].price;
     }
-    setTotalSum(sum)
-  }, [selectRoomData])
+    setTotalSum(sum);
+  }, [selectRoomData]);
+
+  const handleBookNow = () => {
+    navigate("/confirnyourbooking")
+  }
 
   return (
     <div className={styles.brDiv}>
@@ -105,9 +110,7 @@ export default function BookYourStay() {
             </p>
           </div>
           <div>
-            <div>
-
-            </div>
+            <div></div>
             <div>
               <p>Tax</p>
               <p>₹0</p>
@@ -120,7 +123,7 @@ export default function BookYourStay() {
               <p>Payable Now</p>
               <p>{`₹${totalSum}`}</p>
             </div>
-            <button>Book now</button>
+            <button onClick={handleBookNow}>Book now</button>
           </div>
         </div>
       </div>

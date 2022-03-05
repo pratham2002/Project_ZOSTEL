@@ -1,13 +1,13 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router";
 import { DestinationContext } from "../context/DestinationContext";
 import styles from "../css/SelectDestinationForm.module.css";
 
 export default function SelectDestinationForm() {
   const [data, setData] = useState({});
-  const [bool, setBool] = useState(false)
 
   const { setDestinationData } = useContext(DestinationContext);
+  
   const navigate = useNavigate()
 
   const handleChange = (e) => {
@@ -20,14 +20,10 @@ export default function SelectDestinationForm() {
 
   const handleClick = () => {
     localStorage.setItem("data", JSON.stringify(data))
-    setBool(!bool)
+    let localData = JSON.parse(localStorage.getItem("data")) 
+    setDestinationData(localData);
     navigate(`/bookRoom`)
   };
-
-  useEffect(() => {
-    let localData = JSON.parse(localStorage.getItem("data")) || {}
-    setDestinationData(localData);
-  }, [bool, setDestinationData])
 
   const options = [
     "Delhi",
