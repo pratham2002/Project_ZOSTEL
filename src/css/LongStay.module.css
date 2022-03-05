@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+
+scrollbar-width: 5px;
+scrollbar-track-color:white ;
+}
+.header{
+    padding: 16px 30px;
+    align-items: center;
+}
+.navbar{
+    /* min-width: 1000px; */
+    align-items: center;
+    line-height: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navList{
+    font-family: Roboto;
+    font-weight: 700;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.navList > a{
+    color: black;
+    border: 1px solid #f15824;
+    line-height: 20px;
+    border-radius: 0.3rem;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.navList > a>img{
+    width: 28px;
+    margin-right: 8px;
+    /* height: 24px; */
+}
+.moveIn{
+    font-size: 2.25rem;
+    margin: 0px;
+}
+.head2{
+    width: fit-content;
+    margin: auto;
+    line-height: 3.5rem;
+}
+.orange{
+    font-weight:800 ;
+    color: #f15824;
+}
+.live{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.backgroundImage{
+    padding: 1.5rem;
+    box-shadow: 0 0 2px black;
+    margin: 2rem;
+    background-size: cover;
+    background-position: 50%;
+    width: auto;
+    height : 525px;
+    border-radius: 0.5rem;
+    background-image: url("https://book.zostel.com/static/media/bg1.a8f3847b.jpg");
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.featuresList{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,190px);
+    margin: auto;
+    gap:1rem
+}
+.featuresList >div{
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 0.5rem;
+}
+.featuresList >div >div{
+    border-radius: 0.5rem;
+    padding: 20.5%;
+    background-size: contain;
+    background-color: rgba(0, 0, 0,.25);
+}
+.featuresList > div >div > span{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    /* overflow: visible; */
+}
