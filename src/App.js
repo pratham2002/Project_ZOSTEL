@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import HotelBookingPage from "./components/HotelBookingPage";
 import HomePage from "./components/HomePage.jsx";
 import ConfirmYourBooking from "./components/ConfirmYourBooking.jsx";
+import './App.css';
 
 function App() {
   return (
