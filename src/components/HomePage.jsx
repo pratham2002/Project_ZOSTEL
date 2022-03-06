@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div>
         <Navbar />
-        <LiveItNow />
+        <LiveItNow />l
         <Destination />
         <Whatsnew />
         <Zostelhomes />
