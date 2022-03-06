@@ -3,7 +3,6 @@ import HotelBookingPage from "./components/HotelBookingPage";
 import HomePage from "./components/HomePage.jsx";
 import ConfirmYourBooking from "./components/ConfirmYourBooking.jsx";
 import LongStay from "./components/LongStay.jsx";
-// import './App.css';
 
 function App() {
   return (
