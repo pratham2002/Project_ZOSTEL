@@ -2,6 +2,7 @@ main{
     width: 80%;
     padding-top: 30px;
     margin: auto;
+    margin-bottom: 50px;
 }
 main>h3+div {
     width: 100%;

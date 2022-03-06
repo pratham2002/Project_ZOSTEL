@@ -2,6 +2,7 @@ import React from 'react'
 import BookYourStay from './BookYourStay'
 import Navbar from './Navbar/Navbar'
 import SelectUnitGridImage from './SelectUnitGridImage'
+import Footer from "./Footer"
 
 export default function HotelBookingPage() {
   return (
@@ -9,6 +10,7 @@ export default function HotelBookingPage() {
       <Navbar />
       <SelectUnitGridImage/>
       <BookYourStay/>
+      <Footer />
     </div>
   )
 }

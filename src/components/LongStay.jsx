@@ -1,17 +1,18 @@
 import React from "react";
 import { navNames } from "../css/classNames";
 import styles from "../css/LongStay.module.css";
+import Footer from "./Footer";
 import SelectDestinationForm from "./SelectDestinationForm";
 export default function LongStay() {
   return (
     <>
       <header className={styles.header}>
         <div>
-          <nav class={navNames} style={{backgroundColor:"white"}}>
+          <nav class={navNames} style={{ backgroundColor: "white" }}>
             <div class="container-fluid">
               <a href="/">
                 <img
-                src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png"
+                  src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png"
                   alt="Zostel Logo"
                 />
               </a>
@@ -172,13 +173,13 @@ export default function LongStay() {
                       Blog
                     </a>
                   </li>
-                    <a href="/" target="_blank">
-                      <img
-                        src="https://static.cdn.zo.xyz/media/zo-orange.svg"
-                        alt="zoWorld Logo"
-                      />
-                      Zo World
-                    </a>
+                  <a style={{display: "flex", flexDirection: "row", border: "1px solid red", borderRadius: "5px", padding: "0 5px", textDecoration: "none", color: "black"}} href="/" target="_blank">
+                    <img style={{width: "30px", marginRight: "5px"}}
+                      src="https://static.cdn.zo.xyz/media/zo-orange.svg"
+                      alt="zoWorld Logo"
+                    />
+                    <p style={{marginTop: "5px"}}>Zo World</p>
+                  </a>
                 </ul>
               </div>
             </div>
@@ -194,10 +195,9 @@ export default function LongStay() {
             <span className={styles.live}>Live where your heart is</span>
           </div>
           <div className={styles.backgroundImage}></div>
-         <SelectDestinationForm/>
+          <SelectDestinationForm />
         </section>
-        <section>
-        </section>
+        <section></section>
         <section>
           <h2>Features</h2>
           <div className={styles.featuresList}>
@@ -283,15 +283,14 @@ export default function LongStay() {
             </div>
           </div>
         </section>
-        <section>
+        <section style={{marginBottom: "70px"}}>
           <div>
-            <h2>FAQs</h2>
-            <section>
-                
-            </section>
+            {/* <h2>FAQs</h2> */}
+            <section></section>
           </div>
         </section>
       </section>
+      <Footer />
     </>
   );
 }
