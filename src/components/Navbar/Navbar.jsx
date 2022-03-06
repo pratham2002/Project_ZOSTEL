@@ -2,7 +2,7 @@ import "./navbar.module.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light" style={{ backgroundColor: "white" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img
@@ -147,7 +147,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/booknow">
                 BOOK NOW
               </a>
             </li>
