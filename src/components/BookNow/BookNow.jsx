@@ -10,7 +10,7 @@ export default function BOOKNOW() {
     <div>
         <Navbar/>
         <div className={styles.liveItNow}>
-        <h1>Live it. Now</h1>
+        <h1>Zostel Exclusive Stays</h1>
         <SelectDestinationForm />
     </div>
         <Footer/>
