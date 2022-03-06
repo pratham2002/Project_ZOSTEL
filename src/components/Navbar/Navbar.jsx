@@ -1,14 +1,25 @@
-import './navbar.module.css'
+import "./navbar.module.css";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="zostel logo"/>
+          <img
+            src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png"
+            alt="zostel logo"
+          />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -24,7 +35,10 @@ export default function Navbar() {
               >
                 HOSTELS
               </a>
-              <ul className="dropdown-menu dropdown-menu-dark opacity-75" aria-labelledby="navbarDropdown">
+              <ul
+                className="dropdown-menu dropdown-menu-dark opacity-75"
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
                   <a className="dropdown-item" href="/">
                     Coorg
@@ -84,7 +98,10 @@ export default function Navbar() {
               >
                 ZOSTEL HOMES
               </a>
-              <ul className="dropdown-menu dropdown-menu-dark opacity-75" aria-labelledby="navbarDropdown">
+              <ul
+                className="dropdown-menu dropdown-menu-dark opacity-75"
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
                   <a className="dropdown-item" href="/">
                     MADIKERI, COORG
@@ -123,9 +140,9 @@ export default function Navbar() {
                 ZO WORLD
               </a>
             </li>
-           
+
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/longstay">
                 LONGSTAYS
               </a>
             </li>
@@ -150,7 +167,6 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
