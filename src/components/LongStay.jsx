@@ -1,6 +1,7 @@
 import React from "react";
 import { navNames } from "../css/classNames";
 import styles from "../css/LongStay.module.css";
+import SelectDestinationForm from "./SelectDestinationForm";
 export default function LongStay() {
   return (
     <>
@@ -184,7 +185,6 @@ export default function LongStay() {
           </nav>
         </div>
       </header>
-       
       <section>
         <section>
           <div className={styles.head2}>
@@ -194,11 +194,9 @@ export default function LongStay() {
             <span className={styles.live}>Live where your heart is</span>
           </div>
           <div className={styles.backgroundImage}></div>
+         <SelectDestinationForm/>
         </section>
         <section>
-          <div
-            style={{ margin: 0, height: "120px", backgroundColor: "gray" }}
-          ></div>
         </section>
         <section>
           <h2>Features</h2>
@@ -288,6 +286,9 @@ export default function LongStay() {
         <section>
           <div>
             <h2>FAQs</h2>
+            <section>
+                
+            </section>
           </div>
         </section>
       </section>

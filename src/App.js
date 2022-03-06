@@ -8,7 +8,7 @@ import LongStay from "./components/LongStay.jsx";
 function App() {
   return (
     <div className="App">
-      <Routes>
+       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="bookRoom" element={<HotelBookingPage />} />
         <Route path="confirnyourbooking" element={<ConfirmYourBooking />} />
