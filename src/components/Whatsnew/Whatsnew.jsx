@@ -1,8 +1,15 @@
 import React from "react";
 import './whatsnew.module.css';
+import { useNavigate } from "react-router-dom";
 
 
 export default function Whatsnew() {
+    const navigate = useNavigate()
+    const handleClick=()=>{
+            navigate(``)
+    }
+
+
     return (
         <main>
             <h3>WHAT'S NEW</h3>

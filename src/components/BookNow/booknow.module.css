@@ -1,0 +1,16 @@
+.liveItNow {
+    background-image: url(https://s3.ap-south-1.amazonaws.com/zo-static/website/img/booknow_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 700px;
+}
+
+.liveItNow > h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 60px;
+    padding-top: 13%;
+    margin-bottom: 13%;
+}

@@ -41,3 +41,6 @@ main>div>div>div+div>div>button{
     color: white;
     border: none;
 }
+button{
+    cursor: pointer;
+}
