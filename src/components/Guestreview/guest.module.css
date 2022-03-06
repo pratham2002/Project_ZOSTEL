@@ -1,0 +1,63 @@
+main{
+    width: 80%;
+    padding-top: 30px;
+    margin: auto;
+}
+main>h3+div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    overflow-x: scroll;
+    
+}
+.guest {
+    width: 230px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: rgba(232, 232, 240, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guest > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+.guest > div:nth-child(1) > div:nth-child(1) {
+    background-image: url(https://img.cdn.zostel.com/cache/_a365f830eea29916d447bad653b9511a/Hostelworld_100_40x40.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.yellow {
+    color: rgb(255, 210, 3);
+    font-size: 25px;
+    margin-left: 43px;
+}
+
+.guest > div:nth-child(2) > p:nth-child(1) {
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.guest > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.guest > div:nth-child(3) > p {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: right;
+}
