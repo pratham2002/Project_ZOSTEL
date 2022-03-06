@@ -3,15 +3,17 @@ import HotelBookingPage from "./components/HotelBookingPage";
 import HomePage from "./components/HomePage.jsx";
 import ConfirmYourBooking from "./components/ConfirmYourBooking.jsx";
 import './App.css';
+import LongStay from "./components/LongStay";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="bookRoom" element={<HotelBookingPage />} />
         <Route path="confirnyourbooking" element={<ConfirmYourBooking />} />
-      </Routes>
+      </Routes> */}
+            <LongStay/>
     </div>
   );
 }
