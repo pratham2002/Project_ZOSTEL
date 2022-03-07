@@ -38,23 +38,31 @@ export default function ConfirmYourBooking() {
   }, [selectRoomData]);
 
   const handleReserveClick = () => {
-    fetch("http://localhost:3000/userBooking", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(userData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Success:", data);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
 
-    alert("Reservation Confirmed");
-    navigate("/");
+    if (userData.fname && userData.email && userData.gender && userData.address && userData.number ) {
+
+      fetch("http://localhost:3000/userBooking", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(userData),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("Success:", data);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+  
+      alert("Reservation Confirmed");
+      navigate("/");
+    }
+    else {
+      alert("Fill all the Required Details")
+    }
+
   };
 
   return (

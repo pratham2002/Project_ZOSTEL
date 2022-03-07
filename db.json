@@ -528,6 +528,37 @@
     },
     {
       "id": 6
+    },
+    {
+      "fname": "surya",
+      "email": "Suryakant2125@outlook.com",
+      "number": "9929157856",
+      "address": "bhopal",
+      "id": 7
+    },
+    {
+      "fname": "surya",
+      "id": 8
+    },
+    {
+      "fname": "asdf",
+      "email": "eve.holt@reqres.in",
+      "number": "66666",
+      "address": "Ayodhya Nagar, Phase 5, Part 2",
+      "mname": "asdf",
+      "lname": "asdf",
+      "gender": "female",
+      "id": 9
+    },
+    {
+      "fname": "asdfafd",
+      "mname": "asdfasdf",
+      "lname": "asdfasfd",
+      "gender": "male",
+      "email": "eve.holt@reqres.in",
+      "number": "981798716981",
+      "address": "asdfasdfasdf",
+      "id": 10
     }
   ]
 }
