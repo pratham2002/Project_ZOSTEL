@@ -4,7 +4,7 @@ import './awards.module.css'
 export default function Award() {
 
     return (
-        <div className='award'>
+        <award>
         <h3>AWARDS & MEDIA</h3>
         <div>
             <div>
@@ -82,7 +82,7 @@ export default function Award() {
             </div>
            
         </div>
-        </div >
+        </award>
     
  
     )
