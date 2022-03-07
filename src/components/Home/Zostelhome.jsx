@@ -4,7 +4,7 @@ import './zostelhome.module.css'
 export default function ZostelHome() {
 
     return (
-        <>
+        <home>
         <h3>ZOSTEL HOME</h3>
         <div>
             <div>
@@ -14,7 +14,7 @@ export default function ZostelHome() {
                 <div>
                     <div>
                         <p style={{fontSize:"16px",margin:"2px"}}><b>VYTHIRI, WAYANAD</b></p>
-                        <p style={{fontSize: "12px"}}>One of the most-loved regions of Wayanad when it comes to holidaying, Vythiri is a charming village with verdant hills, serene lakes, and a laid-back life. Decorated with breathtaking viewpoints and lush green tea estates at every curve, Vythiri calls for a relaxing holiday to be shared with your loved ones.</p>
+                        <p style={{fontSize: "12px"}}>One of the most-loved regions of Wayanad when it comes to holidaying, Vythiri is a charming village with verdant hill, serene lakes, and a laid-back life. Decorated with breathtaking viewpoints and lush green tea estates at every curve, Vythiri calls for a relaxing holiday to be shared with your loved ones.</p>
                         <button>EXPLORE</button>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export default function ZostelHome() {
                 </div>
             </div>
         </div>
-        </>
+        </home>
     
  
     )
