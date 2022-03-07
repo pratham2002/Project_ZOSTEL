@@ -15,7 +15,7 @@ export default function BookYourStay() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch(`http://localhost:3000/hotel`)
+    fetch(`http://localhost:3001/hotel`)
       .then((res) => res.json())
       .then((data) => setHotels(data));
   }, []);

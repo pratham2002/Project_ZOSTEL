@@ -38,7 +38,7 @@ export default function ConfirmYourBooking() {
   }, [selectRoomData]);
 
   const handleReserveClick = () => {
-    fetch("http://localhost:3000/userBooking", {
+    fetch("http://localhost:3001/userBooking", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
