@@ -4,7 +4,7 @@ import './zostelhome.module.css'
 export default function ZostelHome() {
 
     return (
-        <home>
+        <section>
         <h3>ZOSTEL HOME</h3>
         <div>
             <div>
@@ -80,7 +80,7 @@ export default function ZostelHome() {
                 </div>
             </div>
         </div>
-        </home>
+        </section>
     
  
     )

@@ -1,6 +1,8 @@
 # ZOSTEL CLONE
 Zostel is one of the largest and oldest networks of hostels and homes in India.
-
+<p align="center">
+<img  align="center" src="landing.png" alt="Landing Page" >
+</p>
 
 ## Technologies used :-
 1) React
