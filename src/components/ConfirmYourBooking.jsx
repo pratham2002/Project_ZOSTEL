@@ -39,7 +39,7 @@ export default function ConfirmYourBooking() {
 
   const handleReserveClick = () => {
 
-    if (userData.fname && userData.email && userData.gender && userData.address && userData.number ) {
+    if (userData.fname && userData.email && userData.address && userData.number ) {
 
       fetch("http://localhost:3000/userBooking", {
         method: "POST",
