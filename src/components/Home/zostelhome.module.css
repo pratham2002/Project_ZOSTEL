@@ -1,14 +1,14 @@
-section {
+home {
     width: 80%;
     padding-top: 30px;
     margin: auto;
 }
-section>h3{
+home>h3{
     margin-left: 10%;
     margin-top: 30px;
     
 }
-section>h3+div{
+home>h3+div{
     width: 80%;
     height: 390px;
     display: flex;
@@ -18,7 +18,7 @@ section>h3+div{
     margin: auto;
 }
 
-section>div>div {
+home>div>div {
     width: 300px;
     height: 280px;
     display: flex;
@@ -27,21 +27,21 @@ section>div>div {
     background-color: whitesmoke;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-section>div>div>div{
+home>div>div>div{
     width: 300px;
     height:180px;
 }
-section>div>div>div>img{
+home>div>div>div>img{
     width: 300px;
     height:180px;
 }
-section>div>div>div+div{
+home>div>div>div+div{
     width: 300px;
     height:100px;
     padding: 2% 3% 0% 2%;
     
 }
-section>div>div>div+div>div>button{
+home>div>div>div+div>div>button{
     width: 100%;
     height: 30px;
     background-color: rgb(241,86,63);
