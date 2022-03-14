@@ -41,7 +41,7 @@ export default function ConfirmYourBooking() {
 
     if (userData.fname && userData.email && userData.address && userData.number ) {
 
-      fetch("http://localhost:3000/userBooking", {
+      fetch("https://fake-jsserver-app.herokuapp.com/userBooking", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
